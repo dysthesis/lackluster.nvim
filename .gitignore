@@ -139,4 +139,6 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+.direnv/
+result
 # End of https://www.toptal.com/developers/gitignore/api/vim,lua,linux,macos,windows
