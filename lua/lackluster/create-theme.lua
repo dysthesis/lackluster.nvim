@@ -117,7 +117,7 @@ return function(color, color_special)
         -- builtin = color.blue,
         -- keyword = color.lack,
         keyword_return = color.blue,
-        keyword_exception = color.blue,
+        -- keyword_exception = color.blue,
     })
 
     ---@type LacklusterThemeSyntax
