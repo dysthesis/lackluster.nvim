@@ -116,8 +116,8 @@ return function(color, color_special)
         -- string_escape = color.blue,
         -- builtin = color.blue,
         -- keyword = color.lack,
-        keyword_return = color.red,
-        keyword_exception = color.red,
+        keyword_return = color.blue,
+        keyword_exception = color.blue,
     })
 
     ---@type LacklusterThemeSyntax
