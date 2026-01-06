@@ -1,4 +1,8 @@
 ;; extends
 
-([ "return" "yield" "?" ] @keyword.return (#set! priority 110))
-([ "break" "continue" ] @keyword.exception (#set! priority 110))
+([ 
+   "return"
+   "yield"
+   "break"
+   "continue"
+ ] @keyword.return (#set! priority 110))
