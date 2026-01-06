@@ -5,4 +5,5 @@
    "yield"
    "break"
    "continue"
- ] @keyword.return (#set! priority 110))
+ ] @keyword.return 
+ (#set! "priority" 110))
