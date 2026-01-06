@@ -233,6 +233,11 @@ local load_variant = function(opt)
         vim.g.colors_name = "lackluster-night"
     end
 
+    if opt.theme == "minimal" then
+        theme.syntax = theme.syntax_minimal
+        vim.g.colors_name = "lackluster-minimal"
+    end
+
     theme.syntax = vim.tbl_extend("force", theme.syntax, theme.syntax_tweak)
 end
 
