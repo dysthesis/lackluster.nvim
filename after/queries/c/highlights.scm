@@ -1,5 +1,11 @@
 ;; extends
 
+([
+  "continue"
+  "break"
+  "goto"
+] @keyword.return (#set! priority 300))
+
 ("break" @keyword.return
   (#has-ancestor? @keyword.return break_statement)
   (#set! priority 300))
