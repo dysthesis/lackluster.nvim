@@ -1,5 +1,12 @@
 ;; extends
 
+([
+  "break"
+  "continue"
+  "goto"
+] @keyword.return
+(#set! "priority" 200))
+
 (return_statement "return" @keyword.return
   (#set! "priority" 200))
 
