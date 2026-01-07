@@ -8,16 +8,16 @@
   "?"
   "yield"
 ] @keyword.return
-(#set! "priority" 110))
+(#set! "priority" 90))
 
 ;; Async-style control-flow.
 ([
   "await"
 ] @keyword.return
-(#set! "priority" 110))
+(#set! "priority" 90))
 
 ;; "unreachable" in Rust is not a keyword; it is typically the macro `unreachable!()`.
 ((macro_invocation
   macro: (identifier) @keyword.return
   (#eq? @keyword.return "unreachable"))
-(#set! "priority" 110))
+(#set! "priority" 90))
