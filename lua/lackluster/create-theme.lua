@@ -113,9 +113,9 @@ return function(color, color_special)
     ---@type LacklusterThemeSyntax
     result.syntax_minimal = vim.tbl_deep_extend("force", result.syntax_default, {
         string = color.yellow,
-        -- string_escape = color.blue,
+        string_escape = color.blue,
         -- builtin = color.blue,
-        -- keyword = color.lack,
+        keyword = color.lack,
         keyword_return = color.blue,
         -- keyword_exception = color.blue,
     })
