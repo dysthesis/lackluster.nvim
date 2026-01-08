@@ -159,7 +159,7 @@ local highlight = function(theme, color)
 
                 -- treesitter syntax
                 spec.fg("@keyword", theme.syntax.keyword),
-                spec.fg("@keyword.return", theme.syntax.keyword_return),
+                spec.fg("@keyword.return", theme.syntax.keyword_return, { bold = true }),
                 spec.fg("@keyword.exception", theme.syntax.keyword_exception),
                 spec.fg("@attribute", theme.syntax.keyword),
                 spec.fg("@type", theme.syntax.type),
